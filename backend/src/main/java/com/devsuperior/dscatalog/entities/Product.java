@@ -95,11 +95,11 @@ public class Product implements Serializable {
 		this.price = price;
 	}
 
-	public String getImagUrl() {
+	public String getImgUrl() {
 		return imgUrl;
 	}
 
-	public void setImagUrl(String imagUrl) {
+	public void setImgUrl(String imagUrl) {
 		this.imgUrl = imagUrl;
 	}
 
@@ -139,10 +139,5 @@ public class Product implements Serializable {
 		Product other = (Product) obj;
 		return Objects.equals(id, other.id);
 	}
-
-	
-	
-	
-	
 
 }
