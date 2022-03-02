@@ -29,7 +29,7 @@ public class CategoryResource {
 	@Autowired
 	private CategoryService service;
 	/*
-	 * List ao categories
+	 * List all categories
 	 */
 	@GetMapping
 	public ResponseEntity<Page<CategoryDTO>> findAll(Pageable pageable) {
