@@ -1,5 +1,6 @@
 package com.devsuperior.dscatalog.resources.exceptions;
 
+
 import java.time.Instant;
 
 import javax.servlet.http.HttpServletRequest;
